@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai02</title>
+    <style>
+      * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 900px;
+        height: 800px;
+      }
+      header {
+        background-image: url(../tuan2/Bai2/background.png);
+        width: 100%;
+        height: 100px;
+      }
+      h1 {
+        color: white;
+        font-size: x-large;
+      }
+      h2 {
+        color: white;
+        font-size: large;
+      }
+      nav {
+        width: 100%;
+        height: 20px;
+        background-color: grey;
+      }
+      nav a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 0 10px;
+      }
+      section {
+        width: 100%;
+        height: 500px;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+      }
+      .textred {
+        color: red;
+      }
+      .textred ul li {
+        list-style-type: none;
+        line-height: 3;
+      }
+      .textred ul {
+        margin-left: 10px;
+      }
+      .left,
+      .right,
+      .middle {
+        width: 300px;
+        height: 100%;
+        padding: 20px;
+      }
+      .contact {
+        color: black;
+      }
+      .contact ul li {
+        list-style-type: none;
+      }
+      .contact ul {
+        margin-left: 10px;
+      }
+      footer {
+        width: 100%;
+        height: 20px;
+        background-color: grey;
+        color: white;
+        font-size: medium;
+      }
+      .uppertext {
+        margin-bottom: 140px;
+      }
+      .upperimage{
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>YOKO'S KITCHEN</h1>
+        <h2>JAPANESE COOKING CLASSES</h2>
+      </header>
+      <nav>
+        <a href="#">home</a>
+        <a href="#">classes</a>
+        <a href="#">catering</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
+      </nav>
+      <section>
+        <div class="left">
+            <div class="upperimage">
+          <img src="../tuan2/images/Screenshot 2025-02-21 at 16.06.27.png" width="100%" style="float: left" />
+          <p>Bok Choi</p>
+        </div>
+        <div class="lowerimage">
+          <img src="../tuan2/Bai2/teriyaki.jpg" style="float: left" />
+          <p>Teritaki Sauce</p>
+        </div>
+        </div>
+        <div class="middle">
+          <div class="uppertext">
+            <p1 style="font-size: larger;">Japanese vegetarian</p1>
+            <br>
+            <p1 class="textred">Five week course in London</p1>
+            <br>
+            <br>
+            <p1>A five week introduction to
+                traditional Japanese vegetarian meals, teaching you a selection of
+                rice and noodle dishes.</p1>
+            </p1>
+          </div>
+          <div class="lowertext">
+            <p2 style="font-size: larger;">Sauces Materclass</p2>
+            <br>
+            <p2 class="textred">One day workshop</p2>
+            <br>
+            <br>
+            <p2
+              >An intensive one-day course looking at how to create the most
+              delicious sauces for use in a range of Japanese cookery.</p2
+            >
+          </div>
+        </div>
+        <div class="right">
+          <p3 class="textred">
+            <p style="font-size: larger">Popular Recipies</p>
+            <ul>
+              <li>Yakitori (grilled chicken)</li>
+              <li>Tsukune (minced chicken patties)</li>
+              <li>Okonomiyaki (savory pancakes)</li>
+              <li>Mizutaki (chicken stew)</li>
+            </ul>
+          </p3>
+
+          <p4 class="contact">
+            <p style="color: red; font-size: larger; line-height: 4">Contact</p>
+            <ul>
+              <li>Yoko's Kitchen</li>
+              <li>Redchurch Street</li>
+              <li>Shoreditch</li>
+              <li>London E2 7DP</li>
+            </ul>
+          </p4>
+        </div>
+      </section>
+
+      <footer>2011 Yoko's Kitchen</footer>
+    </div>
+  </body>
+</html>
