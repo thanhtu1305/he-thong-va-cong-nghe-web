@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai3</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100wth;
+        height: 100vh;
+      }
+      header {
+        width: 100;
+        height: 10%;
+        background-color: rgb(173, 76, 21);
+        font-size: 300%;
+        text-transform: uppercase;
+        line-height: 2;
+        padding-left: 20px;
+        color: rgb(123, 137, 3);
+        text-shadow: -4px -2px 5px white;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+      nav {
+        width: 100%;
+        height: 5%;
+        border-bottom: 5px double black;
+        padding: 5px;
+      }
+      nav a {
+        text-decoration: none;
+        color: brown;
+        font-size: larger;
+        font-weight: bold;
+      }
+      nav ul {
+        display: flex;
+        justify-content: flex-start;
+      }
+      nav ul li {
+        list-style-type: none;
+        margin-right: 4%;
+        margin-left: 2%;
+        color: brown;
+        font-size: x-large;
+      }
+      section {
+        width: 100%;
+        height: 80%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+      }
+      .upper {
+        width: 100%;
+        height: 20%;
+        background-image: url(../Bai3/line.png);
+        background-repeat: repeat-x;
+      }
+      .lower {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        margin-top: 5%;
+      }
+      .left {
+        width: 70%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid black;
+      }
+      .upper-left {
+        width: 100%;
+        height: 10%;
+        color: peru;
+        font-size: xx-large;
+        margin-left: 10px;
+        letter-spacing: 2px;
+        font-weight: bold;
+      }
+      .lower-left {
+        width: 100%;
+        height: 90%;
+        padding-left: 15%;
+        padding-right: 10%;
+      }
+      .right {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 3%;
+      }
+      .link-table {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(255, 221, 176);
+        border-radius: 20px 20px 0 0;
+      }
+      .link-table li {
+        margin-left: 80px;
+        list-style-type: square;
+        color: brown;
+      }
+      .link-table a {
+        color: brown;
+        text-decoration: none;
+        line-height: 1.5;
+        font-size: large;
+      }
+      .more-info {
+        width: 100%;
+        height: 50%;
+        background-size: 25%;
+        background-repeat: no-repeat;
+        background-position: 20% 15%;
+        border: 3px white;
+      }
+      footer {
+        width: 100%;
+        height: 5%;
+        background-image: url(../Bai3/Screenshot\ 2025-02-28\ at\ 12.39.11.png);
+        background-size: auto;
+      }
+      .form-username {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-username input {
+        border: none;
+        border-bottom: 1px solid #999;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        outline: none;
+      }
+
+      .form-username button {
+        background-color: #8b8700;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+      nav a {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>autumn travel company</header>
+      <nav>
+        <ul>
+          <li><a href="#"></a>Home</li>
+          <li><a href="#"></a>About</li>
+          <li><a href="#"></a>Product</li>
+          <li><a href="#"></a>Services</li>
+          <li><a href="#"></a>Order</li>
+        </ul>
+      </nav>
+      <section>
+        <div class="upper"></div>
+        <div class="lower">
+          <div class="left">
+            <div class="upper-left">
+              <p>Sign up for membership benefits</p>
+            </div>
+            <div class="lower-left">
+              <div
+                class="our-philo"
+                style="
+                  color: peru;
+                  font-size: larger;
+                  letter-spacing: 2px;
+                  font-style: italic;
+                  text-align: justify;
+                "
+              >
+                Our philisophical are transparency, respect, formality and
+                responsibility. Our stimulus is your enthusiasm. Our motto is
+                your satisfation.
+              </div>
+              <div
+                class="form-username"
+                ;
+                style="margin-top: 10%; width: 100%"
+                ;
+              >
+                <input type="text" placeholder="Username" required />
+                <input type="email" placeholder="E-mail" required />
+                <input type="password" placeholder="Password" required />
+                <input type="password" placeholder="Retype password" required />
+                <button type="submit">SIGN ME UP</button>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="link-table">
+              <p
+                style="
+                  margin-top: 5px;
+                  margin-left: 20px;
+                  font-size: x-large;
+                  font-weight: bold;
+                  color: rgb(78, 20, 20);
+                "
+              >
+                Links
+              </p>
+              <br />
+              <br />
+              <ul>
+                <li><a href="#">Make your Own Tour</a></li>
+                <li><a href="#">Maldives Tours</a></li>
+                <li><a href="#">Nature & Adventure</a></li>
+                <li><a href="#">Readymade Tours</a></li>
+                <li><a href="#">Europe Tours</a></li>
+                <li><a href="#">Russia Tours</a></li>
+              </ul>
+            </div>
+            <div class="more-info">
+              <br />
+              <h4
+                style="
+                  margin-top: 5px;
+                  margin-left: 20px;
+                  font-size: x-large;
+                  font-weight: bold;
+                  color: rgb(78, 20, 20);
+                "
+              >
+                More info
+              </h4>
+              <br />
+              <img
+                src="../Bai3/leaf.png"
+                style="
+                  float: left;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 130px;
+                  height: 110px;
+                  border: 5px solid #ddd;
+                  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+                  background: white;
+                  padding: 10px;
+                  margin: 20px;
+                "
+              />
+              <p
+                style="
+                  color: black;
+                  font-size: larger;
+                  text-align: justify;
+                  margin-top: 20px;
+                "
+              >
+                Our purpose is the client who gives to us the opportunites to
+                serve and to make known the reality arround the world
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer></footer>
+    </div>
+  </body>
+</html>
